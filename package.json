@@ -1,6 +1,6 @@
 {
   "name": "normify",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Makes browser APIs behave in the standard way",
   "main": "src/index.js",
   "scripts": {
