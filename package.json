@@ -7,7 +7,7 @@
     "lint": "eslint src/** || echo Linting failed with the above errors",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "browserify src/index.js -o dist/normify.js -s normify --no-bundle-external",
-    "build-bundle": "browserify src/index.js -o dist/normify.bundle.js -s normify",
+    "build-bundle": "browserify src/index.js -o dist/normify-bundle.js -s normify",
     "dist": "npm run build && npm run build-bundle",
     "prepublish": "npm run dist"
   },
