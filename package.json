@@ -9,7 +9,8 @@
     "build": "browserify src/index.js -o dist/normify.js -s normify --no-bundle-external",
     "build-bundle": "browserify src/index.js -o dist/normify-bundle.js -s normify",
     "dist": "npm run build && npm run build-bundle",
-    "prepublish": "npm run dist"
+    "prepublish": "npm run dist",
+    "preversion": "npm run dist"
   },
   "repository": {
     "type": "git",
