@@ -2,7 +2,7 @@
   "name": "normify",
   "version": "0.0.0",
   "description": "Makes browser APIs behave in the standard way",
-  "main": "dist/normify.js",
+  "main": "src/index.js",
   "scripts": {
     "lint": "eslint src/** || echo Linting failed with the above errors",
     "test": "echo \"Error: no test specified\" && exit 1",
