@@ -36,7 +36,7 @@
     "normify-listeners": "^1.0.0"
   },
   "devDependencies": {
-    "browserify": "^14.0.0",
-    "eslint": "^3.15.0"
+    "browserify": "^16.2.2",
+    "eslint": "^5.4.0"
   }
 }
