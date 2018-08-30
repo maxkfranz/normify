@@ -1,5 +1,7 @@
 # normify
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/maxkfranz/normify.svg)](https://greenkeeper.io/)
+
 Makes browser APIs behave in the standard way
 
 ## Purpose
